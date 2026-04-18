@@ -52,7 +52,7 @@ function App() {
     <div className="container" onDragOver={(e) => e.preventDefault()}>
       <div className="card">
         <h1>Drag & Drop Digits</h1>
-        <p className="subtitle">Drag the boxes to reorder the digits 0-9.</p>
+        <p className="subtitle">Drag the boxes to reorder the digits 0–9.</p>
 
         <div className="digits-grid" onDragOver={(e) => e.preventDefault()}>
           {digits.map((digit, index) => (
